@@ -6,7 +6,8 @@ The included files are PDF versions of spreadsheet pages covering OpenCores and 
 
 Have added columns for: Vendor CPR results (AILX col W), SOC designs (Y/N, col Z) and address modes (col AK). Column X is moved to column O, gives DFF count.
 
-The PDF spreadsheets are available through the Downloads window.
+The PDF spreadsheets are available through the Downloads window.  
+Have recently added the Excel spreadsheet as cut and paste from the PDF version no longer works.  
 
 The latest updates include web-links (col D and AQ) and author (col G) where available, old designs in particular have dead web-links.
 Current process is to compile, place & route into Xilinx Zynq Ultrascale+ or Altera-Intel Arria-2. Am making a modest amount of effort editing each design to get a successful CPR.  Am at this time not attempting to CPR designs that are other than VHDL, Verilog or System Verilog.
@@ -20,5 +21,9 @@ Several categories of designs are not yet included in the PDF files: Paper desig
 ## Intent  
 Goal is to classify the ~500 unique processor cores as to data and instruction sizes, architecture types, instruction set “completeness”, register set size, etc. And to find those cores that exhibit outstanding performance. For about 440 processor designs have obtained LUT-ALUT counts and an Fmax for atleast one FPGA family.
 
+For well maintained designs with full tools and validation see  
+https://en.wikipedia.org/wiki/Soft_microprocessor  
+https://web.archive.org/web/20091026171102/http://1-core.com/library/digital/soft-cpu-cores/  
+
 ## Call for Help  
-Those that wish to contribute corrections or compile, place, route and timing data are welcome to do so. Please provide entries for each spreadsheet column including your name, tool version and top module name.
+Those that wish to contribute corrections or compile, place, route and timing data are welcome to do so. Please provide entries for each spreadsheet column including your name, tool version and top module name.  A project archive is the most useful and smallest file size that lets one reproduce results.  
