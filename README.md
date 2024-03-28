@@ -19,7 +19,7 @@ The PDF spreadsheets contain full information. Cut & paste a link or set of bloc
 Several categories of designs are not yet included in the PDF files: Paper designs where there is a published paper but source code is not openly available. Planning designs where there is an OpenCores project name and possibly an ISA description but no source code. Incomplete designs. And designs that are probably simulation only.
 
 ## Intent  
-Goal is to classify the ~500 unique processor cores as to data and instruction sizes, architecture types, instruction set “completeness”, register set size, etc. And to find those cores that exhibit outstanding performance. For about 440 processor designs have obtained LUT-ALUT counts and an Fmax for atleast one FPGA family.
+Goal is to classify the ~700 unique processor cores as to data and instruction sizes, architecture types, instruction set “completeness”, register set size, etc. And to find those cores that exhibit outstanding performance. For about 440 processor designs have obtained LUT-ALUT counts and an Fmax for atleast one FPGA family.
 
 For well maintained designs with full tools and validation see  
 https://en.wikipedia.org/wiki/Soft_microprocessor  
